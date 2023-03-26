@@ -96,6 +96,21 @@ class EasySwipeBox {
   protected $options_advanced;
 
   /**
+   * Defines the defauls for autodetect options
+   */
+  protected $defaults_autodetect;
+
+  /**
+   * Define defaults for lightbox options
+   */
+  protected $defaults_lightbox;
+
+  /**
+   * Define defaults for advanced options.
+   */
+  protected $defaults_advanced;
+
+  /**
    * Define the core functionality of the plugin.
    *
    * Set the plugin name and the plugin version that can be used throughout the plugin.
